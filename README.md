@@ -1,10 +1,12 @@
 # Aventisia Frontend
 
-A modern, responsive Knowledge Base management system built with visual excellence and performance in mind.
+A modern, responsive Knowledge Base management system.
 
-## 🚀 Overview
+## 🌐 Live Demo
+[https://ui-assignment-plum.vercel.app/](https://ui-assignment-plum.vercel.app/)
 
-Aventisia Frontend provides a streamlined interface for managing knowledge bases, allowing users to organize documents, websites, and text files for quick AI-driven answers. The application features a clean, professional design with full support for both light and dark modes.
+## 💻 GitHub Repository
+[https://github.com/deveshcse/ui-assignment.git](https://github.com/deveshcse/ui-assignment.git)
 
 ## ✨ Key Features
 
@@ -23,6 +25,18 @@ Aventisia Frontend provides a streamlined interface for managing knowledge bases
 - **UI Components**: [Shadcn UI](https://ui.shadcn.com/) (Radix UI)
 - **Icons**: [Lucide React](https://lucide.dev/)
 
+## 📸 Screenshots
+
+### Knowledge Base Dashboard
+![Knowledge Base Dashboard](./screenshots/Screenshot%20(88).png)
+
+### Create New Knowledge Base
+![Create New Knowledge Base](./screenshots/Screenshot%20(90).png)
+
+### Search & Empty State
+![Search & Empty State](./screenshots/Screenshot%20(91).png)
+
+
 ## 🏗️ Project Structure
 
 - `src/components/knowledge-base`: Core Knowledge Base logic, cards, and creation modals.
@@ -32,21 +46,23 @@ Aventisia Frontend provides a streamlined interface for managing knowledge bases
 
 ## 🏁 Getting Started
 
-1. **Install Dependencies**:
+1. **Clone this repository**
+
+```bash
+git clone https://github.com/deveshcse/ui-assignment.git
+```   
+
+2. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-2. **Run Development Server**:
+3. **Run Development Server**:
    ```bash
    npm run dev
    ```
 
-3. **Build for Production**:
+4. **Build for Production**:
    ```bash
    npm run build
    ```
-
-## 📄 License
-
-This project is proprietary and confidential. All rights reserved.
